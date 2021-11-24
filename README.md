@@ -1,10 +1,10 @@
 
 # Ptolomeu - O agiota 🐒💸
 
-#### O projeto tem como base a construção de sistema de gerenciamento de dados do Ptolomeu e o seu acesso com as informações obtidas no banco de dados do IBGE para descobrir traçar rotas sobre seus novos negócios...
+#### O projeto tem como base a construção de sistema de gerenciamento de dados do Ptolomeu e o seu acesso com as informações obtidas no banco de dados do IBGE para traçar rotas sobre seus novos negócios...
 
 ### Status
-#### 🚀 O projeto está sujeito a atualizações... 🚀
+#### 🚀 O projeto está sujeito a atualizações 🚀
 
 
 ### Features
