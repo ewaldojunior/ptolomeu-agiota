@@ -1,12 +1,12 @@
 
 # Ptolomeu - O agiota 🐒💸
 
-#### O projeto tem como base a construção de sistema de gerenciamento de dados do Ptolomeu.
+#### O projeto tem como base a construção de sistema de gerenciamento de dados do Ptolomeu e o seu acesso com as informações obtidas no banco de dados do IBGE.
 
 
 
 ### Status:
-#### 🚀 Inicialmente, está concluído, mas está sujeito a atualizações... 🚀
+#### 🚀 O projeto está sujeito a atualizações... 🚀
 
 
 ### Features:
@@ -26,13 +26,13 @@
 
 Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
 [Git](https://git-scm.com), [Python](https://www.python.org). 
-Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/).
+Além disto, é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/).
 
 ### 🎲 Rodando a aplicação
 
 ```bash
 # Clone este repositório
-$ git clone <https://github.com/ewaldojunior/ptolomeu-agiota.git>
+$ gh repo clone ewaldojunior/ptolomeu-agiota
 
 # Acesse a pasta do projeto no terminal/cmd
 $ cd ptolomeu
