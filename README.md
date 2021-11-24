@@ -28,11 +28,11 @@ Antes de começar, você vai precisar ter instalado em sua máquina as seguintes
 [Git](https://git-scm.com), [Python](https://www.python.org). 
 Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/).
 
-### 🎲 Rodando o Back End (servidor)
+### 🎲 Rodando a aplicação
 
 ```bash
 # Clone este repositório
-$ git clone <https://github.com/nomeaqui>
+$ git clone <https://github.com/ewaldojunior/ptolomeu-agiota.git>
 
 # Acesse a pasta do projeto no terminal/cmd
 $ cd ptolomeu
