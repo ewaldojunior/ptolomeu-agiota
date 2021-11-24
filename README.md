@@ -44,7 +44,7 @@ $ source .venv/Scripts/activate
 
 # Instale as bibliotecas necessárias do requirements.txt
 # Caso seu seja necessário mais alguma importação, seu editor de código irá alertar.
-$ python -r /.requirements.txt
+$ pip install -r requirements.txt
 
 # Execute a aplicação em modo de desenvolvimento
 $ python main.py
