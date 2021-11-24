@@ -1,32 +1,30 @@
 <style>
-    a {
-    color: #0060B6;
-    text-decoration: none;
-}
 
 a:hover 
 {
-     color:#00A0C6; 
-     text-decoration:none; 
+     color: #fff; 
+     font-weight: 200;
+     text-decoration: underline; 
      cursor:pointer;  
 }
 </style>
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#">Agiota</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav">
+<nav class="navbar navbar-expand-lg navbar-light" style="background-color: #666666">
+
+  <div class="d-flex nav justify-content-between ml-5">
+    <label class="navbar-brand ml-5" style="color: #fff; font-size: 22px; cursor: default; text-decoration: none;">Agiota</label>
+   </div>
+
+    <div class="navbar d-flex nav justify-content-between ml-5" id="navbarNav">
+    
         {% if current_user.is_authenticated %}
-          <li class="nav-item">
-            <a href="{{ url_for('amigo')}}">Ptolomeu, o visionário&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
-          </li>
-          <li class="nav-item">
-            <a href="{{ url_for('logout') }}">Sair</a>
-          </li>
+          
+            <a class = "navbar-brand ml-5" href="{{ url_for('amigo')}}" style="color: #fff; font-size: 20px;">Ptolomeu, o visionário</a>
+         
+            <a class = "navbar-brand ml-5" href="{{ url_for('logout') }}" style="color: #fff; font-size: 20px;">Sair</a>
+        
         {% endif %}
-      </ul>
+
     </div>
+
   </nav>
   

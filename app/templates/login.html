@@ -6,9 +6,8 @@
 
     {% include 'components/notification.html' %}
 
-    <h4 class="text-center"> Sistema de Gerenciamento do Ptolomeu</h4>
 
-    <form action="{{ url_for('login') }}" method="POST">
+    <!-- <form action="{{ url_for('login') }}" method="POST">
         <div class="form-group">
           <label>E-mail</label>
           <input type="email" name="email" class="form-control" placeholder="Digite seu e-mail">
@@ -20,7 +19,28 @@
         </div>
         <br>
         <button type="submit" class="btn btn-success">Logar</button>
-      </form>
+      </form> -->
+
+      <div class="container">
+        <div class="d-flex justify-content-center">
+            <form id ="form" class ="card border-0 shadow rounded-3 mt-5" action="{{ url_for('login') }}" method="POST">
+                <div class="p-5 text-center">
+                    <h5 class="card-title mb-4 fw-light fs-5"> <strong>Sistema de Gerenciamento do Ptolomeu</strong></h5>
+                    <div>
+                        <label for ="email"> E-mail:</label>
+                        <input class="form-control mb-3" name ="email" placeholder="Digite seu e-mail" type="text">
+                    </div>  
+                    <div>
+                        <label for ="password"> Senha: </label>
+                        <input class="form-control" name ="password" placeholder="Digite sua senha" type="password">
+                    </div>
+                    <div class="pt-4">
+                        <button class="btn btn-primary" type="submit">Logar</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
 
 {% endblock %}
 
