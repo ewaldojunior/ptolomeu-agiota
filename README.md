@@ -30,7 +30,7 @@ Além disto, é bom ter um editor para trabalhar com o código como [VSCode](htt
 
 ```bash
 # Clone este repositório
-$ git clone <https://github.com/ewaldojunior/ptolomeu-agiota>
+$ git clone https://github.com/ewaldojunior/ptolomeu-agiota
 
 # Acesse a pasta do projeto no terminal/cmd
 $ cd ptolomeu-agiota
