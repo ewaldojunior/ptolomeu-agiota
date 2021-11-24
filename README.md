@@ -35,7 +35,7 @@ Além disto, é bom ter um editor para trabalhar com o código como [VSCode](htt
 $ gh repo clone ewaldojunior/ptolomeu-agiota
 
 # Acesse a pasta do projeto no terminal/cmd
-$ cd ptolomeu
+$ cd ptolomeu-agiota
 
 # Instale o ambiente virtual
 $ python -m venv .venv
