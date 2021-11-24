@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+
+{% block subtitulo %} Visionário {% endblock %}
+
+{% block conteudo %}
+<style>
+    #img {
+    width: 300px;
+    height: 400px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+</style>
+    <div class="mt-5">
+        <a href="{{ url_for('index') }}" class="btn btn-info">
+            <i class="fa fa-arrow-left" aria-hidden="true"></i>
+            Voltar
+          </a>
+        <br><br>
+        <h4>Mesmo o Ceará estando na lista dos piores estados, Ptolomeu vê potencial neste estado e sabe que sua agiotagem irá enriquecer este lugar...</h4>
+        <div id = "img">
+            <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.ud6N5PMtsIAoNvhkZJlHBwHaK2%26pid%3DApi&f=1" alt="macaco" width="300" height="400">
+        </div>
+        <br><br><br>
+        
+        <p><h7>Considerações finais: 
+            este projeto foi desenvolvido por mim, Ewaldo Junior - bolsista Dev. Python Web na Dell Lead, como teste final da mentoria. Apliquei conhecimentos que tive no micro-framework Flask e em banco de dados (SQL Server).</h7></p>
+    </div>
+
+{% endblock %}

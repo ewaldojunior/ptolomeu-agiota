@@ -1,0 +1,43 @@
+{% extends "base.html" %}
+
+{% block subtitulo %} Home {% endblock %}
+
+{% block conteudo %}
+
+    {% with messages = get_flashed_messages() %}
+        {%if messages %}
+            {% for message in messages %}
+                <div class="alert alert-success text-center" role="alert">
+                    {{ message }}
+                </div>
+            {% endfor %}
+        {% endif %}
+    {%endwith%}
+
+        <h2 class="text-center">Estados TOP 5 mais ricos de acordo com seus PIBs PerCapita (do 1st ao 5th): </h2>
+
+        {% for x in range(5) %}
+        <ul class="list-group mb-3">
+            <strong><li class="list-group-item"> {{ top5ricos[x][0] }} </li></strong>
+            <li class="list-group-item"> Capital: {{ top5ricos[x][1] }} </li>
+            <li class="list-group-item"> PIB: {{ top5ricos[x][2] }} </li>
+            <li class="list-group-item"> PIB PerCapita: {{ top5ricos[x][3] }} </li>
+        </ul>
+        {% endfor %}
+       
+
+        <br>
+        <h2 class="text-center">Estados TOP 5 mais pobres de acordo com seus PIBs PerCapita (do 1st ao 5th): </h2>
+
+        {% for x in range(5) %}
+        <ul class="list-group mb-3">
+            <strong><li class="list-group-item"> {{ top5pobres[x][0] }} </li></strong>
+            <li class="list-group-item"> Capital: {{ top5pobres[x][1] }} </li>
+            <li class="list-group-item"> PIB: {{ top5pobres[x][2] }} </li>
+            <li class="list-group-item"> PIB PerCapita: {{ top5pobres[x][3] }} </li>
+        </ul>
+        {% endfor %}
+   
+
+
+{% endblock %}
