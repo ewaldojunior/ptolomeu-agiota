@@ -1,7 +1,7 @@
 
 # Ptolomeu - O agiota 🐒💸
 
-#### O projeto tem como base a construção de sistema de gerenciamento de dados do Ptolomeu e o seu acesso com as informações obtidas no banco de dados do IBGE.
+#### O projeto tem como base a construção de sistema de gerenciamento de dados do Ptolomeu e o seu acesso com as informações obtidas no banco de dados do IBGE para descobrir traçar rotas sobre seus novos negócios...
 
 ### Status
 #### 🚀 O projeto está sujeito a atualizações... 🚀
@@ -43,7 +43,6 @@ $ python -m venv .venv
 $ source .venv/Scripts/activate
 
 # Instale as bibliotecas necessárias do requirements.txt
-# Caso seu seja necessário mais alguma importação, seu editor de código irá alertar.
 $ pip install -r requirements.txt
 
 # Execute a aplicação em modo de desenvolvimento
