@@ -10,12 +10,12 @@
 ### Features
 - [x]  Manipulação com DB - SQL Server
 - [x]  Login do usuário
-- [x]  Criação de tabelas no banco
+- [x]  Criação e importação de tabelas no banco
 - [x]  Criptografia da senha
-- [x]  Buscar dados em tabelas csv
 - [x]  Listagem das preferências do usuário no acesso ao sistema
 - [x]  Tratamento de excessões
 - [x]  Construção de rotas
+- [x] Componentização com o Jinja + HTML
 
 
 ### Demonstração da aplicação 
