@@ -34,7 +34,6 @@ $ git clone https://github.com/ewaldojunior/ptolomeu-agiota
 
 # Acesse a pasta do projeto no terminal/cmd
 $ cd ptolomeu-agiota
-$ code .
 
 # Instale o ambiente virtual
 $ python -m venv .venv
